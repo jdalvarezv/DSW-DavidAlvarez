@@ -1,0 +1,48 @@
+header{
+    background: #EA5C2B;
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background: #ed804a;
+    font-family:Courier;
+}
+section{
+    background: #F6D860;
+    grid-column: 1/4;
+    font-size: auto;
+    font-family:Courier;
+}
+aside{
+    background: #FF9F45;
+    grid-column: 4/5;
+    font-size: auto;
+    font-family:Courier;
+}
+footer{
+    background: #95CD41;
+    text-align: center;
+    font-size: auto;
+    font-family:Courier;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1{ 
+    background-color: #FF5733;
+    text-align: center;
+    color: white;
+}
+P {color:#FF5733; 
+    font-size:auto;
+    font-family:Courier;
+    border:2px;
+    border-color:#339CFF;
+    border-style:solid;
+    
+    width: auto; 
+    height: auto;
+   }
